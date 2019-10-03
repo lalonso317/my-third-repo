@@ -1,0 +1,113 @@
+body{
+    background-color: #529acd;
+}
+.main-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline center;
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+.column-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+}
+
+input{
+    border: 2px solid rgba(220, 227, 223,1);
+    background: none;
+    padding: 0px 0px 0px 4px;
+    margin: 5px 0px 20px 0px;
+    width: 400x;
+    height: 39px;
+    font-size: 19px;
+}
+textarea {
+    background: none;
+    border: 2px solid rgba(220, 227, 223,1);
+    padding: 0px;
+    width: 400px;
+    height: 135px;
+}
+select {
+    background: none;
+    border: 2px solid rgba(220, 227, 223,1);
+    color: rgba(220, 227, 223,1);
+    font-size: 15px;
+}
+.placeholder{ 
+    font-style: italic;
+}
+label {
+    font-family: "Arial" ;
+    font-size: 13px;
+    color: rgba(220, 227, 223,1);
+}
+.email{ 
+    padding: 20px 0px 5px 0px;
+    }
+.bio{
+    margin: 38px 0px 3px 0px;
+}
+.country{
+    padding: 3px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    
+}
+.affil{
+     padding: 15px 0px 5px 0px;
+}
+
+.drink{
+    padding:2px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
+}
+.drinks{
+    padding: 0px 0px 0px 0px;
+    margin:0px;
+}
+
+.occu{
+    padding: 35px 0px 4px 0px;
+}
+.catsname {
+    padding: 30px 0px 0px 0px;
+
+}
+.favgadget {
+    margin: 15px 0px 0px 0px;
+}
+
+
+.com{
+    padding:13px 0px 5px 0px;
+    margin: 15px 0px 0px 0px;
+}
+.power{
+    padding: 10px 0px 0px 0px;
+    margin: 13px 0px 0px 4px;
+    
+}
+.talenttype{
+    padding:0px 0px 3px 0px;
+}
+.weapon-of{
+    margin: 15px 0px 0px 0px;
+}
+
+input[type=text]:focus, textarea:focus {
+    border: 2px solid #4f6c84;
+  }
+
